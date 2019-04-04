@@ -65,5 +65,5 @@ RUN ["chmod", "+x", "/usr/local/bin/docker-entrypoint.sh"]
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 6000
-CMD ["install.sh"]
+CMD ["/install.sh"]
 #CMD ["redis-server"]
