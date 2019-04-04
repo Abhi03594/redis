@@ -66,4 +66,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 6000
 CMD ["/install.sh"]
-#CMD ["redis-server"]
+CMD ["redis-server"]
