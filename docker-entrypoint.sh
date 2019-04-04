@@ -60,7 +60,7 @@ SCRIPT=$(readlink -f $0)
 SCRIPTPATH=$(dirname $SCRIPT)
 
 #Initial defaults
-_REDIS_PORT=6379
+_REDIS_PORT=6000
 _MANUAL_EXECUTION=false
 
 echo "Welcome to the redis service installer"
